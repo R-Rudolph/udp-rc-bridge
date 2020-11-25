@@ -33,4 +33,18 @@ All other pins were left unconnected.
 
 #### 433MHz transmitter
 
+| Transmitter   | Arduino       |
+| ------------- |:-------------:|
+| VCC           | 5V            |
+| GND           | GND           |
+| Data          | Pin 10        |
+
 #### 433MHz receiver
+
+The receiver has two (unmarked) data pins. Both seem to work.
+
+| Transmitter   | Arduino                        |
+| ------------- |:------------------------------:|
+| VCC           | 5V                             |
+| GND           | GND                            |
+| Data          | Pin 2 (interrupt pin 0)        |
